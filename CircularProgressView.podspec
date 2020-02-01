@@ -80,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
   spec.version		= '0.0.1'
-  spec.source	= { :git => 'https://github.com/vinaykiranMobileDev/CircularProgressView.git', :tag => 'v0.0.1' }
+  spec.source	= { :git => 'https://github.com/vinaykiranMobileDev/CircularProgressView.git', :tag => '0.0.1' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
