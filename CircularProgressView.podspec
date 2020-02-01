@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "CircularProgressView"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of CircularProgressView."
+  spec.summary      = "Circular Progress View"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+	Circular Progress View frame work to animate the progress 
                    DESC
 
   spec.homepage     = "https://github.com/vinaykiranMobileDev"
@@ -78,8 +79,8 @@ Pod::Spec.new do |spec|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
-  s.version          = '0.1.0'
-  spec.source       = { :git => "https://github.com/vinaykiranMobileDev/CircularProgressView", :tag => s.version.to_s }
+  spec.version		= '0.0.1'
+  spec.source	= { :git => 'https://github.com/vinaykiranMobileDev/CircularProgressView.git', :tag => 'v0.0.1' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,7 +94,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "CircularProgressView", "CircularProgressView/**/*.{h,m}"
   spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+ spec.public_header_files = "CircularProgressView/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
