@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CircularAnimatingProgressView'
-  s.version          = '0.0.2.2'
+  s.version          = '0.0.2.3'
   s.summary          = 'Project Circular Progress View'
   s.swift_versions  = '4.2'
   s.description      = <<-DESC

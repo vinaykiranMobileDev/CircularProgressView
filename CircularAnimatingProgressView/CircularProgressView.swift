@@ -71,7 +71,7 @@ public class CircularAnimatingProgressView: UIView {
         layer.addSublayer(progressLyr)
     }
     
-    func setProgressWithAnimation(duration: TimeInterval, value: Float) {
+    public func setProgressWithAnimation(duration: TimeInterval, value: Float) {
         var progressValue = value
         if progressLyr.strokeEnd >= 1 {
             progressValue = 0
