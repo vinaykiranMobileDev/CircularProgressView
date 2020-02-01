@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE01937423E5EC2C003F3F77 /* CircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE01937223E5EC2C003F3F77 /* CircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AE01937B23E5EC51003F3F77 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01937A23E5EC51003F3F77 /* CircularProgressView.swift */; };
+		AE01938423E6086B003F3F77 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE01938123E6086B003F3F77 /* CircularProgressView.swift */; };
+		AE01938523E6086B003F3F77 /* CircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = AE01938223E6086B003F3F77 /* CircularProgressView.h */; };
+		AE01938623E6086B003F3F77 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE01938323E6086B003F3F77 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AE01936F23E5EC2C003F3F77 /* CircularProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircularProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE01937223E5EC2C003F3F77 /* CircularProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularProgressView.h; sourceTree = "<group>"; };
-		AE01937323E5EC2C003F3F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AE01937A23E5EC51003F3F77 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		AE01936F23E5EC2C003F3F77 /* CircularAnimatingProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircularAnimatingProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE01938123E6086B003F3F77 /* CircularProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		AE01938223E6086B003F3F77 /* CircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressView.h; sourceTree = "<group>"; };
+		AE01938323E6086B003F3F77 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,8 +33,7 @@
 		AE01936523E5EC2C003F3F77 = {
 			isa = PBXGroup;
 			children = (
-				AE01937A23E5EC51003F3F77 /* CircularProgressView.swift */,
-				AE01937123E5EC2C003F3F77 /* CircularProgressView */,
+				AE01938023E6086B003F3F77 /* CircularAnimatingProgressView */,
 				AE01937023E5EC2C003F3F77 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,18 +41,19 @@
 		AE01937023E5EC2C003F3F77 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE01936F23E5EC2C003F3F77 /* CircularProgressView.framework */,
+				AE01936F23E5EC2C003F3F77 /* CircularAnimatingProgressView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AE01937123E5EC2C003F3F77 /* CircularProgressView */ = {
+		AE01938023E6086B003F3F77 /* CircularAnimatingProgressView */ = {
 			isa = PBXGroup;
 			children = (
-				AE01937223E5EC2C003F3F77 /* CircularProgressView.h */,
-				AE01937323E5EC2C003F3F77 /* Info.plist */,
+				AE01938123E6086B003F3F77 /* CircularProgressView.swift */,
+				AE01938223E6086B003F3F77 /* CircularProgressView.h */,
+				AE01938323E6086B003F3F77 /* Info.plist */,
 			);
-			path = CircularProgressView;
+			path = CircularAnimatingProgressView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -62,16 +63,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE01937423E5EC2C003F3F77 /* CircularProgressView.h in Headers */,
+				AE01938523E6086B003F3F77 /* CircularProgressView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AE01936E23E5EC2C003F3F77 /* CircularProgressView */ = {
+		AE01936E23E5EC2C003F3F77 /* CircularAnimatingProgressView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AE01937723E5EC2C003F3F77 /* Build configuration list for PBXNativeTarget "CircularProgressView" */;
+			buildConfigurationList = AE01937723E5EC2C003F3F77 /* Build configuration list for PBXNativeTarget "CircularAnimatingProgressView" */;
 			buildPhases = (
 				AE01936A23E5EC2C003F3F77 /* Headers */,
 				AE01936B23E5EC2C003F3F77 /* Sources */,
@@ -82,9 +83,9 @@
 			);
 			dependencies = (
 			);
-			name = CircularProgressView;
+			name = CircularAnimatingProgressView;
 			productName = CircularProgressView;
-			productReference = AE01936F23E5EC2C003F3F77 /* CircularProgressView.framework */;
+			productReference = AE01936F23E5EC2C003F3F77 /* CircularAnimatingProgressView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AE01936923E5EC2C003F3F77 /* Build configuration list for PBXProject "CircularProgressView" */;
+			buildConfigurationList = AE01936923E5EC2C003F3F77 /* Build configuration list for PBXProject "CircularAnimatingProgressView" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +116,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AE01936E23E5EC2C003F3F77 /* CircularProgressView */,
+				AE01936E23E5EC2C003F3F77 /* CircularAnimatingProgressView */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE01938623E6086B003F3F77 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE01937B23E5EC51003F3F77 /* CircularProgressView.swift in Sources */,
+				AE01938423E6086B003F3F77 /* CircularProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AE01936923E5EC2C003F3F77 /* Build configuration list for PBXProject "CircularProgressView" */ = {
+		AE01936923E5EC2C003F3F77 /* Build configuration list for PBXProject "CircularAnimatingProgressView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE01937523E5EC2C003F3F77 /* Debug */,
@@ -325,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE01937723E5EC2C003F3F77 /* Build configuration list for PBXNativeTarget "CircularProgressView" */ = {
+		AE01937723E5EC2C003F3F77 /* Build configuration list for PBXNativeTarget "CircularAnimatingProgressView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AE01937823E5EC2C003F3F77 /* Debug */,

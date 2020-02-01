@@ -1,6 +1,6 @@
 //
-//  CircularProgressView.swift
-//  CircularProgressView
+//  CircularAnimatingProgressView.swift
+//  CircularAnimatingProgressView
 //
 //  Created by VinayKiran M on 01/02/20.
 //  Copyright © 2020 VinayKiran M. All rights reserved.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class CircularProgressView: UIView {
+class CircularAnimatingProgressView: UIView {
     private let kStartAngle = CGFloat(-0.5 * .pi)
     private let kEndAngle = CGFloat(1.5 * .pi)
     open var progressLyr = CAShapeLayer()

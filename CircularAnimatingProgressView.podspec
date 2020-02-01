@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
-  s.name             = 'CircularProgressView'
-  s.version          = '0.0.2'
+  s.name             = 'CircularAnimatingProgressView'
+  s.version          = '0.0.2.1'
   s.summary          = 'Project Circular Progress View'
   s.swift_versions  = '4.2'
   s.description      = <<-DESC
@@ -14,6 +14,6 @@ This is Circular Progress View frame work to animate the progress framework
   s.source           = { :git => 'https://github.com/vinaykiranMobileDev/CircularProgressView.git', :tag => s.version }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'CircularProgressView/**/*.{swift,h,m}'
+  s.source_files = 'CircularAnimatingProgressView/**/*.{swift,h,m}'
  
 end
