@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class CircularAnimatingProgressView: UIView {
+public class CircularAnimatingProgressView: UIView {
     private let kStartAngle = CGFloat(-0.5 * .pi)
     private let kEndAngle = CGFloat(1.5 * .pi)
     open var progressLyr = CAShapeLayer()
